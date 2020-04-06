@@ -52,6 +52,6 @@ x_test,y_hat_predict=zip(*sorted(zip(x_test, y_hat_predict)))
 
 #verilerimizi grafiğe döküyoruz.
 #We plot our data to graph.
-plt.scatter(x_test,y_hat_predict)
-plt.plot(x_test,y_test,color="green")
+plt.plot(x_test,y_hat_predict)
+plt.scatter(x_test,y_test,color="green")
 plt.show()
